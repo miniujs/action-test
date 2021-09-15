@@ -37,4 +37,5 @@ jobs:
           echo github.base_ref: ${{github.base_ref}},
           echo github.ref: ${{github.ref}},
           echo GITHUB_HEAD_REF: ${GITHUB_HEAD_REF},
+          echo GITHUB_EVENT_PATH: ${GITHUB_EVENT_PATH},
           echo test, and deploy your project.
