@@ -38,5 +38,5 @@ jobs:
           echo github.ref: ${{github.ref}},
           echo GITHUB_HEAD_REF: ${GITHUB_HEAD_REF},
           echo GITHUB_EVENT_PATH: ${GITHUB_EVENT_PATH},
-          echo pr.number: ${github.event.pull_request.number},
+          echo pr.number: ${{github.event.pull_request.number}},
           echo test, and deploy your project.
